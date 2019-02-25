@@ -77,6 +77,14 @@ Efekt
 
 Warto wiedzieć
 --------------
+systemclt stop firewall- wylacza firewalla na centOS
+
+curl -d '{"text":"wiadomosc"}' http:// -ip- :8888/chat    -wysyla wiadomsc
+curl -d '{"last_message_id":-1}' http:// -ip:8888/messages  python -m json.tool   
+
+yum install git 
+sudo apt git
+ifup enp0s3
 
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
