@@ -76,4 +76,4 @@ Zadanie
 
 WARTO WIEDZIEC: 
 
-
+https://tlk.io/sk-2019
