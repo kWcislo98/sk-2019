@@ -51,3 +51,8 @@ Zadanie
 3.4 Przygotuj dokumentację pisemno obrazkową z wykonania zadania w formacie ``markdown`` zamieść ją w serwisie ``github.com`` obok obocnego tematu ``cwiczenia-3``
 
 ![zadanie 3.1](cwiczenia3.1.svg) 
+
+
+WARTO WIEDZIEC: 
+vi /etc/hosts
+vi /etc/hostname
