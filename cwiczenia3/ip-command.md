@@ -30,6 +30,9 @@ ip
 |               |   ``ip addr show dev enp0s3`` | informacja o konkretnym interfejsie               |
 |               |   ``ip link set enp0s3 down`` | wyłącza interfejs enp0s3              |
 |               |   ``ip link set enp0s3 up `` | włącza interfejs enp0s3               |
+|               |   ``ip addr add 172.16.100.10/24 dev enp0s3`` |   ustawianie adresu na karcie            |
+|               |   ``ip addr del 172.16.100.10/24 dev enp0s3`` |   usuwanie adresu na karcie            |
+
 |   ``link``    |                               |  |
 |   ``route``   |  | |
 |   ``maddr``   |  | |
