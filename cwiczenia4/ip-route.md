@@ -44,3 +44,6 @@ Zadanie do domu
   * debian -> centos lub centos -> debian
   * zapewnij poprawną komunikację pomiędzy PC3 -> PC1
   
+  
+   KOLEJNOSC DODANIE SIECI W GLOBANYCH USTAWIENIACH>DODANIE SIECI W MASZYNACH NA POZIOMIE VB> IP ADDR.../POSTAIWNIE INTERFEJSU(LINK SET...)
+  
