@@ -21,7 +21,7 @@ ip
 |cat /proc/sys/net/ipv4/ip_forward| | |
 |echo 1 >proc/sys/net/ipv4/ip_forward| | |
 
-Zadanie
++Zadanie
 ------------
 
 ![zadanie 4](pobrane.svg)
