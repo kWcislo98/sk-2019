@@ -15,10 +15,12 @@ ip
 | ------------- |:-------------| :---------------| 
 |   ``route``    |                               | |
 |               |   ``ip route add``             | |
-ip route show 
-ip route add default via 10.0.10.1 (opcjonalne:) dev enp0s3 - wpisujemy w urzeadzeniu 10.0.10.10, dodajemy do swojego rutera
-ip route get 10.0.10.15?
-Zadanie
+|ip route show | |
+|ip route add default via 10.0.10.1 (opcjonalne:) dev enp0s3 |- wpisujemy w urzeadzeniu 10.0.10.10, dodajemy do swojego rutera|
+|ip route get 10.0.10.15?||
+|cat /proc/sys/net/ipv4/ip_forward||
+|echo 1 >proc/sys/net/ipv4/ip_forward||
+|Zadanie||
 ------------
 
 ![zadanie 4](pobrane.svg)
