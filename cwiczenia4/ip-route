@@ -15,7 +15,8 @@ ip
 | ------------- |:-------------| :---------------| 
 |   ``route``    |                               | |
 |               |   ``ip route add``             | |
-
+ip route show 
+ip route add default via 10.0.10.1 (opcjonalne:) dev enp0s3 - wpisujemy w urzeadzeniu 10.0.10.10
 
 Zadanie
 ------------
@@ -39,3 +40,9 @@ Zadanie do domu
   * debian -> centos lub centos -> debian
   * zapewnij poprawną komunikację pomiędzy PC3 -> PC1
   
+  
+  
+  
+  
+  
+  KOLEJNOSC DODANIE SIECI W GLOBANYCH USTAWIENIACH>DODANIE SIECI W MASZYNACH NA POZIOMIE VB> IP ADDR.../POSTAIWNIE INTERFEJSU(LINK SET...)
