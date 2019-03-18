@@ -20,7 +20,11 @@ ip
 |ip route get 10.0.10.15?| | |
 |cat /proc/sys/net/ipv4/ip_forward| | |
 |echo 1 >proc/sys/net/ipv4/ip_forward| | |
-|Zadanie| | |
+
+
+
+
+|Zadanie
 ------------
 
 ![zadanie 4](pobrane.svg)
