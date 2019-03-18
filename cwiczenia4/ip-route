@@ -17,11 +17,11 @@ ip
 |               |   ``ip route add``             | |
 ip route show 
 ip route add default via 10.0.10.1 (opcjonalne:) dev enp0s3 - wpisujemy w urzeadzeniu 10.0.10.10
-
+ip route get 10.0.10.15?
 Zadanie
 ------------
 
-![zadanie 4](cwiczenia4.svg)
+![zadanie 4](pobrane.svg)
 
 1.
    * Przygotuj konfigurację sieci zgodnie z powyższym diagramem, 
