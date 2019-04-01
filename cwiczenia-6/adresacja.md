@@ -118,46 +118,4 @@ Mając dany adres hosta i maskę znajdź:
 | ``host - max``   |192.168.1.254 | 
 | ``broadcast``   |192.168.1.255 | 
  
-Zadanie
-------------
 
-0. Znajdz wszystkie parametry sieci dla hosta o adresie 172.16.128.64 / 16
-  
-------------------------------
-| Parametr |  wartość   | 
-| --------- |:-------------| 
-| ``ip``    | 192.168.1.145| 
-| ``maska``   | 255.255.255.128 | 
-| ``adres sieci``   |192.168.1.128 |
-| ``liczba hostów``   |126 |
-| ``host - min``   |192.168.1.129  | 
-| ``host - max``   |192.168.1.254  | 
-| ``broadcast``   |192.168.1.255  | 
-
-1.
-  * Podziel sieć ```192.168.1.0``` na 16 równych podsieci
-  
-----------------------------------------------------------
-| Adres sieci |  zakres hostów   | Adres Rozgłoszeniowy |
-| --------- |:-------------|  :---------------|
-| ``192.168.1.0``    | | |
-| ````   | | |
-| ````   | | |
-| ````   | | |
-| ````   | | |
-| ````   | | |
-
-2. 
-  * Podziel sieć ``172.16.0.0/16`` na 6 równych podsieci.
-
-3. 
-  * Podziel sieć ``192.168.1.0/24``, tak aby każda podsieć miała 11 użytkowników.
-
-4. 
-  * Podziel sieć ``10.0.0.0/8`` na 5 podsieci. 
-    * Podsieć A ma posiadać 100 000 użytkowników,
-    * B – 10 000 użytkowników
-    * C – 3 000 użytkowników
-    * D – 500 użytkowników
-    * E – 2 użytkowników.
-    
