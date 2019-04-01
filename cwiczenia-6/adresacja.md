@@ -24,7 +24,7 @@ Podział na równą ilość podsieci
 
 ```2^S >= n```
 
-Chcemy 7 -> 2^3 >= 7
+Chcemy 7 -> 2^3 >= 7, szukamy pierwszej wolnej liczby wiekszej od chcianej
 
 Maska -> 255.255.255.11100000 -> 255.255.255.224 -> /27
 
