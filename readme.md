@@ -1,4 +1,4 @@
-Sieci komputerow - uek 2019
+Sieci komputerowe - uek 2019
 ---------------------------
 
 https://e-uczelnia.uek.krakow.pl/course/view.php?id=9172
