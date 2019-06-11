@@ -54,4 +54,4 @@ Konfiguracja PC2
 
 Diagram
 ---
-(DIAGRAM.png)
+![diagram](DIAGRAM.png)
