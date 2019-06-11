@@ -14,4 +14,13 @@ Zadanie- Rozwiązanie:
  1. Podział sieci na 2 podsieci:
   * LAN1 172.22.160.0/23 
   * LAN2 172.22.128.0/19
- 
+ PC0:
+*eth0: Zapewnia usługodawca
+*eth1: 172.22.160.1/23
+*eth2: 172.22.128.1/19
+
+PC1:
+*eth0: 172.22.160.2/23
+
+PC2:
+*eth0: 172.22.128.2/19
