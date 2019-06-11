@@ -46,6 +46,7 @@ Nadanie routingu: ``ip route add default via 172.22.160.1 dev enp0s3``
 Włączenie ip forwarding: ``echo 1 >/proc/sys/net/ipv4/ip_forward``
 Reguła Masquerade dla Lan1: ``iptables -t nat -A POSTROUTING -s 172.22.160.0/23 -o enp0s3 -j MASQUERADE``
 Reguła Masquerade dla Lan2:`` iptables -t nat -A POSTROUTING -s 172.22.128.0/19 -o enp0s3 -j MASQUERADE``
+
 Konfiguracja PC2
 ---
 Nadanie adresu Ip: ``ip addr add 172.22.128.2/19 dev enp0s3``
