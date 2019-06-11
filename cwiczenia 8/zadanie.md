@@ -12,6 +12,6 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
 
 Zadanie- Rozwiązanie:
  1. Podział sieci na 2 podsieci:
-   LAN1 172.22.160.0/23 
-   LAN2 172.22.128.0/19
+  * LAN1 172.22.160.0/23 
+  * LAN2 172.22.128.0/19
  
