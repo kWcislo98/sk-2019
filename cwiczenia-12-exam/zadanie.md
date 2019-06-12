@@ -57,22 +57,22 @@ podsieć: 10.0.0.0/16
 ![diagram](koncept2.svg)
 
 
-Adresy każdej z sal:
-009: 10.0.9.0/26
-013: 10.0.13.0/26
-014: 10.0.14.0/26
-017: 10.0.17.0/26
-115: 10.0.115.0/26
-116: 10.0.116.0/26
-117: 10.0.117.0/26
-122: 10.0.122.0/26
-201: 10.0.201.0/26
-202: 10.0.202.0/26
-203: 10.0.203.0/26
-204: 10.0.204.0/26
-kazda sala pomieści 64 komputery(wymagane 35)
+* Adresy każdej z sal:
+* 009: 10.0.9.0/26
+* 013: 10.0.13.0/26
+* 014: 10.0.14.0/26
+* 017: 10.0.17.0/26
+* 115: 10.0.115.0/26
+* 116: 10.0.116.0/26
+* 117: 10.0.117.0/26
+* 122: 10.0.122.0/26
+* 201: 10.0.201.0/26
+* 202: 10.0.202.0/26
+* 203: 10.0.203.0/26
+* 204: 10.0.204.0/26
+* kazda sala pomieści 64 komputery(wymagane 35)
 
-na każdym piętrze znajduje się po 140 komputerów co łącznie daje 420 komputerów.
+* na każdym piętrze znajduje się po 140 komputerów co łącznie daje 420 komputerów.
 
  ip forwarding
 ----
