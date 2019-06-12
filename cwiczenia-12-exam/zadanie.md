@@ -54,7 +54,7 @@ Podzeliłem sieć 188.156.220.160/27 na 2 podsieci:
 	* podsieć: 10.0.0.0/16
 * 188.156.220.160/22 sieć wifi, ilość hostów 1022(potrzeba 800)
 	*	podsieć: 10.10.0.0/22
-![diagram](koncept2.svg)
+
 
 
 Adresy każdej z sal:
@@ -82,8 +82,9 @@ Adresy każdej z sal:
  
 DHCP
 ---
+* instalacja dhcp
 ``apt install isc-dhcp-server``  
-należy odkomentować ``config DHCPDv4_CONF`` 
+* usuwamy znak komentarza przy configu DHCPv4 ``config DHCPDv4_CONF`` 
 
 Routing
 ---
@@ -98,5 +99,7 @@ Routing
  * ``iptables -t nat -A POSTROUTING -s 188.156.220.160/22 -o enp0s3 -j MASQUERADE``
  * ``iptables -t nat -A POSTROUTING -s 188.156.224.160/23 -o enp0s3 -j MASQUERADE``
  
-
+Diagram 
+--- 
+![diagram](koncept2.svg)
 
