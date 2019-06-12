@@ -50,10 +50,10 @@
 ROZWIAZANIE
 --- 
 Podzeliłem sieć 188.156.220.160/27 na 2 podsieci:
-188.156.224.160/23  sieć dla sal, ilość hostów: 510(potrzeba 420)
-podsieć: 10.0.0.0/16
-188.156.220.160/22 sieć wifi, ilość hostów 1022(potrzeba 800)
-		podsieć: 10.10.0.0/22
+* 188.156.224.160/23  sieć dla sal, ilość hostów: 510(potrzeba 420)
+	* podsieć: 10.0.0.0/16
+* 188.156.220.160/22 sieć wifi, ilość hostów 1022(potrzeba 800)
+	*	podsieć: 10.10.0.0/22
 ![diagram](koncept2.svg)
 
 
