@@ -79,18 +79,24 @@ Adresy każdej z sal:
 ----
  ``echo 1 >/proc/sys/net/ipv4/ip_forward``
  
- Reguła Masquerade
- ---
- * ``iptables -t nat -A POSTROUTING -s 188.156.220.160/22 -o enp0s3 -j MASQUERADE``
- * ``iptables -t nat -A POSTROUTING -s 188.156.224.160/23 -o enp0s3 -j MASQUERADE``
  
+DHCP
+---
+``apt install isc-dhcp-server``  
+należy odkomentować ``config DHCPDv4_CONF`` 
+
 Routing
 ---
 * ``ip route add default via 10.0.115.1``  
 * ``ip route add default via 10.0.201.1``
 * ``ip route add default via 10.0.9.1``
+* ...
 
-DHCP
----
-``apt install isc-dhcp-server``  
-odkomentować ``config DHCPDv4_CONF`` 
+ 
+ Reguła Masquerade
+ ---
+ * ``iptables -t nat -A POSTROUTING -s 188.156.220.160/22 -o enp0s3 -j MASQUERADE``
+ * ``iptables -t nat -A POSTROUTING -s 188.156.224.160/23 -o enp0s3 -j MASQUERADE``
+ 
+
+
