@@ -45,3 +45,36 @@
 * W specyfikacji uwzględnij wielkości sieci oraz ich adresy
 * W specyfikacji uwzględnij konfigurację tablicy routingu
 * Dokumentację graficzną stworzonej architektury przygotuj w programie ``DIA`` lub podobnym
+
+
+ROZWIAZANIE
+--- 
+Podzeliłem sieć 188.156.220.160/27 na 2 podsieci:
+188.156.224.160/23  sieć dla sal, ilość hostów: 510(potrzeba 420)
+podsieć: 10.0.0.0/16
+188.156.220.160/22 sieć wifi, ilość hostów 1022(potrzeba 800)
+		podsieć: 10.10.0.0/22
+![diagram](koncept2.svg)
+
+
+Adresy każdej z sal:
+009: 10.0.9.0/26
+013: 10.0.13.0/26
+014: 10.0.14.0/26
+017: 10.0.17.0/26
+115: 10.0.115.0/26
+116: 10.0.116.0/26
+117: 10.0.117.0/26
+122: 10.0.122.0/26
+201: 10.0.201.0/26
+202: 10.0.202.0/26
+203: 10.0.203.0/26
+204: 10.0.204.0/26
+kazda sala pomieści 64 komputery(wymagane 35)
+
+na każdym piętrze znajduje się po 140 komputerów co łącznie daje 420 komputerów.
+
+ ip forwarding
+----
+ ``echo 1 >/proc/sys/net/ipv4/ip_forward``
+
