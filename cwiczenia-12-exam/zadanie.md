@@ -89,3 +89,8 @@ Routing
 * ``ip route add default via 10.0.115.1``  
 * ``ip route add default via 10.0.201.1``
 * ``ip route add default via 10.0.9.1``
+
+DHCP
+---
+``apt install isc-dhcp-server``  
+odkomentować ``config DHCPDv4_CONF`` 
