@@ -57,7 +57,8 @@ podsieć: 10.0.0.0/16
 ![diagram](koncept2.svg)
 
 
-* Adresy każdej z sal:
+Adresy każdej z sal:
+---
 * 009: 10.0.9.0/26
 * 013: 10.0.13.0/26
 * 014: 10.0.14.0/26
@@ -77,4 +78,14 @@ podsieć: 10.0.0.0/16
  ip forwarding
 ----
  ``echo 1 >/proc/sys/net/ipv4/ip_forward``
-
+ 
+ Reguła Masquerade
+ ---
+ * ``iptables -t nat -A POSTROUTING -s 188.156.220.160/22 -o enp0s3 -j MASQUERADE``
+ * ``iptables -t nat -A POSTROUTING -s 188.156.224.160/23 -o enp0s3 -j MASQUERADE``
+ 
+Routing
+---
+* ``ip route add default via 10.0.115.1``  
+* ``ip route add default via 10.0.201.1``
+* ``ip route add default via 10.0.9.1``
